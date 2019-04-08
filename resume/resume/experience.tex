@@ -1,7 +1,10 @@
 %-------------------------------------------------------------------------------
 %	SECTION TITLE
 %-------------------------------------------------------------------------------
-\cvsection{Work Experience}
+\multilang
+  {1}
+  {\cvsection{Work Experience}}
+  {\cvsection{Berufliche Erfahrung}}
 
 
 %-------------------------------------------------------------------------------
@@ -10,7 +13,9 @@
 \begin{cventries}
 
 %---------------------------------------------------------
-  \cventry
+\multilang
+  {1}
+  {\cventry
     {Student Assistant (Department of Guidance, Navigation and Control)} % Job title
     {DLR e.V. (German Aerospace Center)} % Organization
     {Bremen, Germany} % Location
@@ -22,9 +27,24 @@
         \item {Only undergraduate student among graduate students in the department}
       \end{cvitems}
     }
+  }{\cventry
+    {Studentische Hilfskraft (Abteilung für Guidance, Navigation and Control)} % Job title
+    {DLR e.V. (Deutsches Zentrum für Luft- und Raumfahrt)} % Organization
+    {Bremen, Deutschland} % Location
+    {Oct. 2018 - HEUTE} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Entwicklung von redundanten, fehlertoleranten eingebetteten Computernetzen im ReFEx (Reusability Flight Experiment) Projekt}
+        \item {Architektur und Implementierung der Software für ein Watchdog Modul, welches zwei redundante Hauptcomputer überwacht}
+        %\item {Only undergraduate student among graduate students in the department}
+      \end{cvitems}
+    }
+  }
     
 %---------------------------------------------------------
-  \cventry
+\multilang
+  {1}
+  {\cventry
     {Student Assistant (Department of Hardware Architectures)} % Job title
     {DFKI (German Research Center for AI) GmbH} % Organization
     {Bremen, Germany} % Location
@@ -40,9 +60,28 @@
         \item {Work on paper in progress (to be submitted to OCEANS 2019 (MTS/IEEE) conference)}
       \end{cvitems}
     }
+  }{\cventry
+    {Studentische Hilfskraft (Abteilung für Hardwarearchitektur)} % Job title
+    {DFKI (Deutsches Forschungszentrum für künstliche Intelligenz) GmbH} % Organization
+    {Bremen, Deutschland} % Location
+    {Nov. 2016 - Aug. 2018} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Entwicklung der eingebetteten Software für sicherheitskritische optische Sensornetzwerke, die eine künstliche robotische Haut darstellen}
+        \item {Implementierung der Sensortreiber, Kommunikationsprotokolle und UART/CAN Bootloader für STM32 controller in C mit einer Qt GUI in C++}
+        \item {Einrichten von ROS mit einem Velodyne LIDAR und einer ZED Stereokamera an einem Nvidia Jetson TX2 für den Kopf des AILA2 Roboters}
+        \item {Implementierung von ROS Hardwaretreibern und einfachem Objekttracking zum Testen der Servomotoren und der Sensoren}
+        \item {Implementierung eines CNNs in Tensorflow (Python) um zu erkennen, ob eine Person vorschriftsgemäß in einem Autositz sitzt, welcher in einem Raster aus 120 optischen Drucksensoren ausgestattet ist}
+        \item {Implementierung der eingebetteten Software auf einem neuen optischen taktilen Sensorfeld, geholfen, die Sensoren in einer Tiefsee-Druckkammer zu validieren}
+        %\item {Work on paper in progress (to be submitted to OCEANS 2019 (MTS/IEEE) conference)}
+      \end{cvitems}
+    }
+  }
 
 %---------------------------------------------------------
-  \cventry
+\multilang
+  {1}
+  {\cventry
     {Embedded Software Developer} % Job title
     {BSAB GmbH} % Organization
     {Damme, Germany} % Location
@@ -57,10 +96,27 @@
         \item {Multiple wireless mobile devices, communicating to one base station, emulating a physical connection to the screwing controller}
       \end{cvitems}
     }
+  }{\cventry
+    {Embedded Software Entwickler} % Job title
+    {BSAB GmbH} % Organization
+    {Damme, Deutschland} % Location
+    {Jul. 2016 - PRESENT} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Einziger Softwareentwickler in der Firma, verantwortlich für sämtliche eingebettete Software in allen produkten (Kunden: Daimler, Volkswagen, Airbus)}
+        \item {Softwarearchitektur und Implementierung sowie Debugging von modularer Software mit hohen Ansprüchen an Zuverlässigkeit}
+        \item {Modulares, kabelloses elektrisches Stecknussmagazin für den Einsatz in Industrieumgebungen}
+        %\item {The system is capable to detect if a socket nut is placed at a defined position (inductive sensing or RFID)}
+        %\item {Based on the nut that is taken out of place, the device communicates to the screwing controller via CAN, RS232 or TCP/IP}
+        \item {Mehrere kabellose Mobileinheiten welche mit einer Basisstation kommunizieren und eine physikalische Verbindung zur Schraubersteuerung emulieren}
+      \end{cvitems}
+    }
+  }
 
 %---------------------------------------------------------
-\begin{comment}
-  \cventry
+\multilang
+  {0}
+  {\cventry
     {Internship} % Job title
     {DFKI (German Researchcenter for AI) GmbH} % Organization
     {Bremen, Germany} % Location
@@ -73,9 +129,25 @@
         \item {Bridged the VHDL modules to an emulated Microblaze soft core on the FPGA}
       \end{cvitems}
     }
+  }{\cventry
+    {Praktium} % Job title
+    {DFKI (Deutsches Forschungszentrum für künstliche Intelligenz) GmbH} % Organization
+    {Bremen, Deutschland} % Location
+    {Oct. 2015 - Dez. 2015} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Eingearbeitet in die Xilinx FPGA Toolchain und VHDL durch Implementieren von PWM, FIFO, UART und I2C}
+        \item {Fehler im VHDL Treiber eines Kameramoduls behoben, welcher verhinderte, die Kamera in der maximalen Auflösung zu betreiben}
+        \item {Implementierung des Canny Edge Filters und einer Circle-Hough-Transformation auf einem FPGA Entwicklungskit mit einer Kamera in VHDL, Qt C++ GUI}
+        \item {Verbinden von VHDL modulen zu einem emulierten Microblaze Softcore auf dem FPGA}
+      \end{cvitems}
+    }
+  }
 
 %---------------------------------------------------------
-  \cventry
+\multilang
+  {0}
+  {\cventry
     {Summer Job} % Job title
     {Grimme Agricultural GmbH \& Co. KG} % Organization
     {Damme, Germany} % Location
@@ -89,6 +161,21 @@
         \item {Implemented several procedures described in norms in Excel VBA as a help for the staff}
       \end{cvitems}
     }
-\end{comment}
+  }{
+    {Ferienjob} % Job title
+    {Grimme Landmaschinen GmbH \& Co. KG} % Organization
+    {Damme, Deutschland} % Location
+    {Jul. 2015 - Sep. 2015} % Date(s)
+    {
+      \begin{cvitems} % Description(s) of tasks/responsibilities
+        \item {Unterstützung in der Abteilung für funktionale Sicherheit}
+        \item {Einziger Ferienjobber in der Entwicklungsabteilung}
+        \item {Erstellung voon Übersichten von verschiedenen ISO Normen der funktionalen Sicherheit}
+        \item {Einarbeiten in Microsoft Excel und VBA}
+        \item {Implementoerung verschiedener in Normen beschriebener Prozeduren in Excel VBA als Unterstützung für die Mitarbeiter}
+      \end{cvitems}
+    }
+  }
+  
 %---------------------------------------------------------
 \end{cventries}

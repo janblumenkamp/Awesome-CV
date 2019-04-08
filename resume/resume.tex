@@ -71,6 +71,17 @@
 
 %\quote{``Be the change that you want to see in the world."}
 
+\newcommand*{\ENGLISH}{}
+
+\newcommand{\multilang}[3]{
+  \ifnum#1>0
+    \ifdefined\ENGLISH
+      #2
+    \else
+      #3
+    \fi
+  \fi
+}
 
 %-------------------------------------------------------------------------------
 \begin{document}
